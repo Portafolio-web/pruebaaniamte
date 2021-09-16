@@ -39,27 +39,19 @@ if (reversed == null) { reversed = false; }
 
 	// Capa_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("EBRRhFRMAwaAAAMAAAAnUIt5AAMAAABsWMjnEAAAMAAAgkAMAAAhIWIqRAAIkHAAMAAAgnUMCqLAAAIAApHMAowAAAgEAohhFRMAowAAAEBRRgd9MgowAAAMibzAAAEBRRgd9MAAABEjMgowAAAMAAAhEjEBzygd9MgihAAA");
-	this.shape.setTransform(577.575,243.95);
+	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("EBNbgqpMAtjAAAIAAPVMgtjAAAMAAAA7cIOZAAIAAXBIuZAAMgkcAAAMiqxAAAEAoZhCJIAApHIAmAAEAoZhCJIAmAAIAApHIAA0JMAkcAAAIAAUJIDuAAIAAJHMBTiAAAMAAAChjMkmdAAAMAAAgoRMgi4AAAIAA3BMAi4AAAMAAAhiRgEAo/gqpIAA3gEBNbhCJIDuAAEBNbhLQIAAJHIAAXgIAAPVEBNbA3JIAANbMgkcAAAIAAtbEAo/AgIMAAAg7cIAAvVEAo/AgIMAkcAAAEAo/gbUMigGAAAIAAvVMCgGAAAEiByAgIMCqxAAA");
+	this.shape.setTransform(578.375,224);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(102,0,204,0.8)").s().p("EAohA6fMAAAhEiMibzAAAIqRAAIkHAAMAAAgnUMCqLAAAMAowAAAMgowAAAIAApHMAowAAAIAAJHMAwaAAAMAAAAnUIt5AAMgihAAAMgowAAAMAowAAAMAAABEig");
-	this.shape_1.setTransform(577.575,116.625);
+	this.shape_1.graphics.f("rgba(102,0,204,0.8)").s().p("EiByBfaMAAAgoSMgi4AAAIAA3AMAi4AAAMCqxAAAMiqxAAAMAAAhiRMCqLAAAIAmAAIAApHIAA0JMAkcAAAIAAUJIDuAAIAAJHMBTiAAAMAAAChjgEAo/BEkMAkcAAAIAAtcIOZAAIAA3AIuZAAMAAAg7cMAAAA7cMgkcAAAMAkcAAAIOZAAIAAXAIuZAAMgkcAAAMiqxAAAMCqxAAAIAANcgEAo/AgIMAAAg7cIAAvWIAAPWMigGAAAIAAvWMCgGAAAIAA3fIAAXfMigGAAAIAAPWMCgGAAAgEB6+gbUIAAvWMgtjAAAIAA3fIAApHIAAJHIAAXfIAAPWMAtjAAAgEBRJhCJIjuAAgEAo/BEkIAAtcMAkcAAAIAANcgEAo/A3IgEBNbAgIgEB6+gbUMgtjAAAIAAvWMAtjAAAIAAPWgEBNbgbUgEAoZhCJIAApHIAmAAIAAJHgEAo/hLQg");
+	this.shape_1.setTransform(578.375,224);
 
-	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("rgba(51,255,153,0.8)").s().p("EhzhA2LMAAAgj/MAAAhIWMCbyAAAMAAABEiMAowAAAMAAAhEiMAihAAAMAAABsVg");
-	this.shape_2.setTransform(579.125,398.9);
-
-	this.shape_3 = new cjs.Shape();
-	this.shape_3.graphics.f("rgba(0,51,255,0.8)").s().p("EgFIAkMMAAAhIWIKRAAMAAABIWg");
-	this.shape_3.setTransform(-193.175,283.75);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(186.7,-23.7,1221.8,770.3000000000001);
+p.nominalBounds = new cjs.Rectangle(-36.6,-152.5,1669.8999999999999,988.1);
 // library properties:
 lib.properties = {
 	id: '01BA7B0CEC80894E869107359CE15CEB',
