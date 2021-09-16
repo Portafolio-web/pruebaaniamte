@@ -39,28 +39,32 @@ if (reversed == null) { reversed = false; }
 
 	// Capa_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("EBEIgeeIAAsvIHAAAEA9BArOMiIIAAAEhLHgeeMCCvAAA");
-	this.shape.setTransform(400.225,248.7);
+	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("EBRRhFRMAwaAAAMAAAAnUIt5AAMAAABsWMjnEAAAMAAAgkAMAAAhIWIqRAAIkHAAMAAAgnUMCqLAAAIAApHMAowAAAgEAohhFRMAowAAAEBRRgd9MAAABEjMgowAAAMAAAhEjMibzAAAEBRRgd9MgowAAAEBzygd9MgihAAA");
+	this.shape.setTransform(587.575,243.95);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(51,255,153,0.8)").s().p("EACcApRIleAAIAAvrImaAAIAApTIGaAAMAAAgs0IAAsvIMfAAMAAAA5jImaAAIAAJTIGaAAIAAPrg");
-	this.shape_1.setTransform(900.5,236.2);
+	this.shape_1.graphics.f("rgba(102,0,204,0.8)").s().p("EAohA6fMAAAhEiMAowAAAMAAABEigEBzygKDMgihAAAMgowAAAMibzAAAIqRAAIkHAAMAAAgnUMCqLAAAMAowAAAMgowAAAIAApHMAowAAAIAAJHMAwaAAAMAAAAnUgEBRRgKDg");
+	this.shape_1.setTransform(587.575,116.625);
 
 	this.shape_2 = new cjs.Shape();
-	this.shape_2.graphics.f("rgba(0,51,255,0.8)").s().p("EBEFAk3MiIJAAAIzmAAMAAAhJsITmAAMCCvAAAMAAABFyIMgAAIAAvsImbAAIAApTIGbAAMAAAgszIHBAAMAAAAszImbAAIAAJTIGbAAIAAPsIFfAAIAAD6g");
-	this.shape_2.setTransform(355.05,289.45);
+	this.shape_2.graphics.f("rgba(51,255,153,0.8)").s().p("EhzhA2LMAAAgj/MAAAhIWMCbyAAAMAAABEiMAowAAAMAAAhEiMAihAAAMAAABsVg");
+	this.shape_2.setTransform(589.125,398.9);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.shape_3 = new cjs.Shape();
+	this.shape_3.graphics.f("rgba(0,51,255,0.8)").s().p("EgFIAkMMAAAhIWIKRAAMAAABIWg");
+	this.shape_3.setTransform(-183.175,283.75);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_3},{t:this.shape_2},{t:this.shape_1},{t:this.shape}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(254,221.1,707,305.19999999999993);
+p.nominalBounds = new cjs.Rectangle(206.7,-18.7,1211.8,765.3000000000001);
 // library properties:
 lib.properties = {
 	id: '01BA7B0CEC80894E869107359CE15CEB',
-	width: 920,
-	height: 500,
+	width: 900,
+	height: 480,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
