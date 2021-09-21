@@ -55,12 +55,12 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(115.7,161.4,904.6999999999999,434.30000000000007);
+p.nominalBounds = new cjs.Rectangle(115.7,160.9,904.6999999999999,434.80000000000007);
 // library properties:
 lib.properties = {
 	id: 'E9BC3AF504AF3149B678E704B14FFE0D',
 	width: 868,
-	height: 485,
+	height: 484,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
