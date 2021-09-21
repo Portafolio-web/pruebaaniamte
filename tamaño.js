@@ -2,7 +2,9 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [];
+lib.ssMetadata = [
+		{name:"tamaño_atlas_1", frames: [[0,0,1868,1094],[0,1096,1870,414]]}
+];
 
 
 (lib.AnMovieClip = function(){
@@ -25,6 +27,20 @@ lib.ssMetadata = [];
 
 
 
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["tamaño_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["tamaño_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
 // stage content:
 (lib.tamaño = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -38,29 +54,29 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Capa_1
-	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFFFF").ss(1,1,1).p("EhI9gQFMCR7AAAMAAAAgLMiR7AAAg");
-	this.shape.setTransform(454.025,89.05);
+	this.instance = new lib.CachedBmp_2();
+	this.instance.setTransform(-12.95,-81.1,0.5,0.5);
 
-	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("rgba(0,51,255,0.8)").s().p("EhI9AQGMAAAggLMCR7AAAMAAAAgLg");
-	this.shape_1.setTransform(454.025,89.05);
+	this.instance_1 = new lib.CachedBmp_1();
+	this.instance_1.setTransform(-13.45,-14.45,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.shape_1},{t:this.shape}]}).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(422.1,70.1,499.9,123);
+p.nominalBounds = new cjs.Rectangle(422.6,116.9,499,349);
 // library properties:
 lib.properties = {
 	id: 'E9BC3AF504AF3149B678E704B14FFE0D',
 	width: 872,
-	height: 170,
+	height: 396,
 	fps: 24,
 	color: "#FFFFFF",
 	opacity: 1.00,
-	manifest: [],
+	manifest: [
+		{src:"images/tamaño_atlas_1.png", id:"tamaño_atlas_1"}
+	],
 	preloads: []
 };
 
